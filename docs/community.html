@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Colosse Baptist Church</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/site.css?v=20">
+
+    <style>
+        .community-theme-header .theme-menu-toggle,
+        .community-theme-header .theme-mobile-nav {
+            display: none;
+        }
+
+        @media (max-width: 900px) {
+            .community-theme-header .community-header-inner {
+                grid-template-columns: 1fr auto !important;
+            }
+
+            .community-theme-header .theme-desktop-wrap {
+                display: none !important;
+            }
+
+            .community-theme-header .theme-menu-toggle {
+                display: inline-flex !important;
+                align-items: center;
+                justify-content: center;
+                width: 48px;
+                height: 48px;
+                border: 0;
+                border-radius: 999px;
+                background: #24493d;
+                color: white;
+                font-size: 25px;
+                font-weight: 900;
+                cursor: pointer;
+            }
+
+            .community-theme-header .theme-mobile-nav.is-open {
+                display: grid !important;
+            }
+
+            .community-theme-header .theme-mobile-nav {
+                grid-column: 1 / -1;
+                gap: 10px;
+                padding-top: 18px;
+            }
+
+            .community-theme-header .theme-mobile-nav a {
+                background: #eef6ee;
+                color: #24493d;
+                text-decoration: none;
+                padding: 14px 16px;
+                border-radius: 18px;
+                font-family: Inter, system-ui, sans-serif;
+                font-size: 14px;
+                font-weight: 850;
+            }
+
+            .community-theme-header .theme-mobile-nav a:last-child {
+                background: #24493d;
+                color: white;
+            }
+
+            .community-theme-header .community-brand-title {
+                font-size: 22px !important;
+            }
+
+            .community-theme-header .community-brand-subtitle {
+                font-size: 12px !important;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .community-theme-header .community-brand img {
+                width: 52px !important;
+                height: 52px !important;
+            }
+
+            .community-theme-header .community-brand-title {
+                font-size: 19px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+<div style="background:#1f4638;color:#fff;font-family:system-ui,sans-serif;font-size:14px;padding:10px 16px;text-align:center">Proposal preview only. Sample Sunday times and welcome copy. Not the live church site. <a href="./" style="color:#fff;font-weight:700">All themes</a></div>
+
+<header class="community-theme-header" style="
+    background:#fff8ed;
+    border-bottom:1px solid rgba(36,73,61,.16);
+    font-family:Georgia,'Times New Roman',serif;
+">
+    <div class="container community-header-inner" style="
+        display:grid;
+        grid-template-columns:1fr auto;
+        gap:24px;
+        align-items:center;
+        padding:24px 0;
+    ">
+        <a class="community-brand" href="index.php?theme=community" style="
+            display:flex;
+            align-items:center;
+            gap:16px;
+            text-decoration:none;
+            color:#24493d;
+        ">
+            <img src="https://www.colossebaptistchurch.com/uploads/2/4/5/7/24574640/logo-2.jpeg" alt="Colosse Baptist Church" style="
+                width:62px;
+                height:62px;
+                object-fit:cover;
+                border-radius:22px;
+                box-shadow:0 12px 28px rgba(36,73,61,.14);
+            ">
+
+            <div>
+                <strong class="community-brand-title" style="
+                    display:block;
+                    font-size:28px;
+                    line-height:1;
+                    letter-spacing:-.04em;
+                ">Colosse Baptist Church</strong>
+
+                <span class="community-brand-subtitle" style="
+                    display:block;
+                    margin-top:7px;
+                    color:#68786f;
+                    font-family:Inter,system-ui,sans-serif;
+                    font-size:13px;
+                    font-weight:800;
+                ">A church family with room for you.</span>
+            </div>
+        </a>
+
+        <div class="theme-desktop-wrap" style="
+            display:flex;
+            flex-direction:column;
+            align-items:flex-end;
+            gap:12px;
+        ">
+            <div style="
+                color:#b86b4b;
+                font-family:Inter,system-ui,sans-serif;
+                font-size:12px;
+                font-weight:950;
+                text-transform:uppercase;
+                letter-spacing:.14em;
+            ">
+                Everyone is welcome here
+            </div>
+
+            <nav class="theme-desktop-nav" style="
+                display:flex;
+                gap:10px;
+                flex-wrap:wrap;
+                justify-content:flex-end;
+                font-family:Inter,system-ui,sans-serif;
+                font-size:13px;
+                font-weight:850;
+            ">
+                <a href="our-church.php" style="background:#eef6ee;color:#24493d;text-decoration:none;padding:10px 14px;border-radius:999px;">Our Church</a>
+                <a href="sermons.php" style="background:#eef6ee;color:#24493d;text-decoration:none;padding:10px 14px;border-radius:999px;">Sermons</a>
+                <a href="ministries.php" style="background:#eef6ee;color:#24493d;text-decoration:none;padding:10px 14px;border-radius:999px;">Ministries</a>
+                <a href="forms.php" style="background:#eef6ee;color:#24493d;text-decoration:none;padding:10px 14px;border-radius:999px;">Forms</a>
+                <a href="giving.php" style="background:#24493d;color:white;text-decoration:none;padding:10px 15px;border-radius:999px;">Give</a>
+            </nav>
+        </div>
+
+        <button class="theme-menu-toggle" type="button" aria-label="Open menu">☰</button>
+
+        <nav class="theme-mobile-nav">
+            <a href="our-church.php">Our Church</a>
+            <a href="sermons.php">Sermons</a>
+            <a href="ministries.php">Ministries</a>
+            <a href="forms.php">Forms</a>
+            <a href="giving.php">Give</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<script>
+document.addEventListener('click', function (event) {
+    const toggle = event.target.closest('.theme-menu-toggle');
+
+    if (!toggle) {
+        return;
+    }
+
+    const header = toggle.closest('header');
+    const menu = header.querySelector('.theme-mobile-nav');
+
+    if (!menu) {
+        return;
+    }
+
+    menu.classList.toggle('is-open');
+    toggle.textContent = menu.classList.contains('is-open') ? '×' : '☰';
+});
+</script>
+<style>
+    .community-edition {
+        --ink: #18231f;
+        --forest: #1f4638;
+        --cream: #f8f1e4;
+        --paper: #fffdf7;
+        --line: #1f4638;
+        --muted: #5f6c65;
+        --accent: #b45f3d;
+        background: var(--cream);
+        color: var(--ink);
+        font-family: Georgia, "Times New Roman", serif;
+    }
+
+    .community-edition a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .ce-masthead {
+        border-top: 8px solid var(--forest);
+        border-bottom: 2px solid var(--forest);
+        padding: 24px 0;
+        background: var(--paper);
+    }
+
+    .ce-masthead-inner {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 24px;
+        align-items: end;
+    }
+
+    .ce-masthead small {
+        color: var(--accent);
+        font-family: system-ui, sans-serif;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+    }
+
+    .ce-masthead h1 {
+        margin: 8px 0 0;
+        color: var(--forest);
+        font-size: clamp(52px, 8vw, 118px);
+        line-height: .82;
+        letter-spacing: -.08em;
+    }
+
+    .ce-masthead-actions {
+        display: grid;
+        gap: 10px;
+        min-width: 220px;
+    }
+
+    .ce-btn {
+        border: 2px solid var(--forest);
+        padding: 13px 16px;
+        font-family: system-ui, sans-serif;
+        font-size: 13px;
+        font-weight: 950;
+        text-transform: uppercase;
+        letter-spacing: .09em;
+        text-align: center;
+    }
+
+    .ce-btn.primary {
+        background: var(--forest);
+        color: white;
+    }
+
+    .ce-btn.secondary {
+        background: transparent;
+        color: var(--forest);
+    }
+
+    .ce-lead {
+        border-bottom: 2px solid var(--forest);
+        background: var(--cream);
+    }
+
+    .ce-lead-grid {
+        display: grid;
+        grid-template-columns: 42% 58%;
+        min-height: 560px;
+    }
+
+    .ce-lead-copy {
+        padding: 46px 36px 46px 0;
+        border-right: 2px solid var(--forest);
+    }
+
+    .ce-lead-copy p {
+        margin: 0;
+        color: var(--muted);
+        font-size: clamp(22px, 3vw, 34px);
+        line-height: 1.35;
+    }
+
+    .ce-lead-copy .ce-drop {
+        float: left;
+        color: var(--forest);
+        font-size: 92px;
+        line-height: .75;
+        padding-right: 10px;
+        font-weight: 900;
+    }
+
+    .ce-lead-image {
+        position: relative;
+        min-height: 560px;
+    }
+
+    .ce-lead-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        filter: saturate(.9) contrast(1.04);
+    }
+
+    .ce-image-caption {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(31,70,56,.92);
+        color: white;
+        padding: 18px 24px;
+        font-family: system-ui, sans-serif;
+        font-weight: 800;
+    }
+
+    .ce-feature-strip {
+        border-bottom: 2px solid var(--forest);
+        background: var(--paper);
+    }
+
+    .ce-feature-strip-grid {
+        display: grid;
+        grid-template-columns: 240px 1fr;
+    }
+
+    .ce-feature-label {
+        background: var(--forest);
+        color: white;
+        padding: 28px;
+        font-family: system-ui, sans-serif;
+        font-size: 13px;
+        font-weight: 950;
+        text-transform: uppercase;
+        letter-spacing: .15em;
+    }
+
+    .ce-feature-content {
+        padding: 28px;
+    }
+
+    .ce-feature-content h2 {
+        margin: 0;
+        color: var(--forest);
+        font-size: clamp(34px, 4vw, 62px);
+        line-height: .95;
+        letter-spacing: -.055em;
+    }
+
+    .ce-feature-content p {
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-size: 19px;
+        line-height: 1.55;
+    }
+
+    .ce-index {
+        padding: 42px 0 72px;
+    }
+
+    .ce-index-heading {
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        border-top: 2px solid var(--forest);
+        border-bottom: 2px solid var(--forest);
+        margin-bottom: 28px;
+    }
+
+    .ce-index-heading div {
+        padding: 18px 0;
+    }
+
+    .ce-index-heading div:first-child {
+        border-right: 2px solid var(--forest);
+        color: var(--accent);
+        font-family: system-ui, sans-serif;
+        font-size: 13px;
+        font-weight: 950;
+        text-transform: uppercase;
+        letter-spacing: .16em;
+    }
+
+    .ce-index-heading h2 {
+        margin: 0;
+        padding-left: 24px;
+        color: var(--forest);
+        font-size: clamp(34px, 4vw, 58px);
+        line-height: 1;
+        letter-spacing: -.055em;
+    }
+
+    .ce-directory {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-top: 2px solid var(--forest);
+        border-left: 2px solid var(--forest);
+    }
+
+    .ce-directory-item {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        min-height: 210px;
+        border-right: 2px solid var(--forest);
+        border-bottom: 2px solid var(--forest);
+        background: var(--paper);
+    }
+
+    .ce-directory-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-right: 2px solid var(--forest);
+    }
+
+    .ce-directory-copy {
+        padding: 24px;
+    }
+
+    .ce-directory-copy small {
+        color: var(--accent);
+        font-family: system-ui, sans-serif;
+        font-size: 12px;
+        font-weight: 950;
+        text-transform: uppercase;
+        letter-spacing: .14em;
+    }
+
+    .ce-directory-copy h3 {
+        margin: 10px 0;
+        color: var(--forest);
+        font-size: 32px;
+        line-height: .95;
+        letter-spacing: -.05em;
+    }
+
+    .ce-directory-copy p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 16px;
+        line-height: 1.55;
+    }
+
+    .ce-directory-copy span {
+        display: inline-block;
+        margin-top: 18px;
+        color: var(--forest);
+        font-family: system-ui, sans-serif;
+        font-size: 12px;
+        font-weight: 950;
+        text-transform: uppercase;
+        letter-spacing: .12em;
+    }
+
+    @media (max-width: 950px) {
+        .ce-masthead-inner,
+        .ce-lead-grid,
+        .ce-feature-strip-grid,
+        .ce-index-heading,
+        .ce-directory {
+            grid-template-columns: 1fr;
+        }
+
+        .ce-lead-copy {
+            border-right: 0;
+            padding-right: 0;
+        }
+
+        .ce-feature-label,
+        .ce-index-heading div:first-child {
+            border-right: 0;
+        }
+
+        .ce-index-heading h2 {
+            padding-left: 0;
+        }
+    }
+
+    @media (max-width: 650px) {
+        .ce-directory-item {
+            grid-template-columns: 1fr;
+        }
+
+        .ce-directory-item img {
+            height: 220px;
+            border-right: 0;
+            border-bottom: 2px solid var(--forest);
+        }
+
+        .ce-lead-image {
+            min-height: 320px;
+        }
+    }
+</style>
+
+<div class="community-edition">
+
+    <section class="ce-masthead">
+        <div class="container ce-masthead-inner">
+            <div>
+                <small>Welcome home</small>
+                <h1>A church family, growing stronger in faith together</h1>
+            </div>
+
+            <div class="ce-masthead-actions">
+                <a class="ce-btn primary" href="#visit">
+                    Plan a visit
+                </a>
+
+                <a class="ce-btn secondary" href="#sermons">
+                    Sermons
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ce-lead">
+        <div class="container ce-lead-grid">
+            <div class="ce-lead-copy">
+                <p>
+                    <span class="ce-drop">W</span>
+                    e believe church is more than a building or a Sunday service. It is a family. In Christ we are brothers and sisters, walking through life together, celebrating the joys and carrying each other's burdens. Whether you have followed Jesus for decades or are just beginning to explore faith, there is a place for you here.
+                </p>
+            </div>
+
+            <div class="ce-lead-image">
+                <img src="https://www.colossebaptistchurch.com/uploads/2/4/5/7/24574640/logo-2.jpeg" alt="">
+                <div class="ce-image-caption">
+                    One big family
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ce-feature-strip">
+        <div class="container ce-feature-strip-grid">
+            <div class="ce-feature-label">
+                Featured
+            </div>
+
+            <div class="ce-feature-content">
+                <h2>You belong here</h2>
+                <p>We worship together. We serve together. We grow together. We love one another, because He first loved us. Sunday school at 9:30 am, worship at 10:30 am, and youth group at 6:00 pm. 23891 King William Road, West Point, Virginia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ce-index">
+        <div class="container">
+            <div class="ce-index-heading">
+                <div>Get Connected</div>
+                <div>
+                    <h2>Helpful links</h2>
+                </div>
+            </div>
+
+            <div class="ce-directory">
+                
+                    <a class="ce-directory-item" href="#new">
+                        <img src="https://www.colossebaptistchurch.com/uploads/2/4/5/7/24574640/logo-2.jpeg" alt="">
+
+                        <div class="ce-directory-copy">
+                            <small>Resource</small>
+                            <h3>I'm new here</h3>
+                            <p>What to expect on a Sunday morning at Colosse.</p>
+                            <span>Open</span>
+                        </div>
+                    </a>
+                
+                    <a class="ce-directory-item" href="#sermons">
+                        <img src="https://www.colossebaptistchurch.com/uploads/2/4/5/7/24574640/logo-2.jpeg" alt="">
+
+                        <div class="ce-directory-copy">
+                            <small>Resource</small>
+                            <h3>Sermons</h3>
+                            <p>Recent messages and the weekly livestream.</p>
+                            <span>Open</span>
+                        </div>
+                    </a>
+                
+                    <a class="ce-directory-item" href="#ministries">
+                        <img src="https://www.colossebaptistchurch.com/uploads/2/4/5/7/24574640/logo-2.jpeg" alt="">
+
+                        <div class="ce-directory-copy">
+                            <small>Resource</small>
+                            <h3>Ministries</h3>
+                            <p>Kids, youth, and ways to serve the church family.</p>
+                            <span>Open</span>
+                        </div>
+                    </a>
+                
+                    <a class="ce-directory-item" href="#giving">
+                        <img src="https://www.colossebaptistchurch.com/uploads/2/4/5/7/24574640/logo-2.jpeg" alt="">
+
+                        <div class="ce-directory-copy">
+                            <small>Resource</small>
+                            <h3>Online giving</h3>
+                            <p>Support the work of the church.</p>
+                            <span>Open</span>
+                        </div>
+                    </a>
+                
+            </div>
+        </div>
+    </section>
+
+</div>
+</main>
+
+<footer style="
+    background:#24493d;
+    color:white;
+    padding:52px 0 150px;
+    font-family:Georgia,'Times New Roman',serif;
+">
+    <div class="container" style="
+        display:grid;
+        grid-template-columns:minmax(0,1fr) 360px;
+        gap:38px;
+        align-items:center;
+    ">
+        <div>
+            <span style="
+                display:block;
+                color:#d99f45;
+                font-family:Inter,system-ui,sans-serif;
+                font-size:12px;
+                font-weight:950;
+                text-transform:uppercase;
+                letter-spacing:.16em;
+                margin-bottom:14px;
+            ">Let’s stay connected</span>
+
+            <strong style="
+                display:block;
+                font-size:clamp(36px,5vw,58px);
+                line-height:1;
+                letter-spacing:-.055em;
+                max-width:760px;
+            ">
+                Worship, grow, serve, and belong with Colosse Baptist Church.
+            </strong>
+
+            <div style="
+                display:grid;
+                grid-template-columns:repeat(3,1fr);
+                gap:16px;
+                margin-top:30px;
+                font-family:Inter,system-ui,sans-serif;
+            ">
+                <div style="
+                    background:rgba(255,255,255,.08);
+                    border:1px solid rgba(255,255,255,.12);
+                    border-radius:22px;
+                    padding:18px;
+                ">
+                    <strong style="display:block;font-size:14px;">Address</strong>
+                    <span style="display:block;margin-top:8px;color:rgba(255,255,255,.72);line-height:1.5;">
+                        23891 King William Road<br>West Point, VA 23181
+                    </span>
+                </div>
+
+                <div style="
+                    background:rgba(255,255,255,.08);
+                    border:1px solid rgba(255,255,255,.12);
+                    border-radius:22px;
+                    padding:18px;
+                ">
+                    <strong style="display:block;font-size:14px;">Church Office</strong>
+                    <span style="display:block;margin-top:8px;color:rgba(255,255,255,.72);line-height:1.5;">
+                        804-769-2729
+                    </span>
+                </div>
+
+                <div style="
+                    background:rgba(255,255,255,.08);
+                    border:1px solid rgba(255,255,255,.12);
+                    border-radius:22px;
+                    padding:18px;
+                ">
+                    <strong style="display:block;font-size:14px;">Next Steps</strong>
+                    <span style="display:block;margin-top:8px;color:rgba(255,255,255,.72);line-height:1.5;">
+                        Visit • Pray • Serve • Give
+                    </span>
+                </div>
+            </div>
+
+            <div style="
+                display:flex;
+                gap:16px;
+                flex-wrap:wrap;
+                margin-top:26px;
+                font-family:Inter,system-ui,sans-serif;
+                font-size:13px;
+                font-weight:850;
+            ">
+                <a href="our-church.php" style="color:white;text-decoration:none;">Our Church</a>
+                <a href="sermons.php" style="color:white;text-decoration:none;">Sermons</a>
+                <a href="ministries.php" style="color:white;text-decoration:none;">Ministries</a>
+                <a href="giving.php" style="color:white;text-decoration:none;">Giving</a>
+            </div>
+        </div>
+
+        <img src="https://www.colossebaptistchurch.com/uploads/2/4/5/7/24574640/20200730-131646-colosse-front-view.jpg" alt="Colosse Baptist Church" style="
+            width:100%;
+            height:320px;
+            object-fit:cover;
+            border-radius:34px;
+            border:10px solid rgba(255,255,255,.13);
+            box-shadow:0 22px 60px rgba(0,0,0,.22);
+        ">
+    </div>
+</footer>
+
+</body>
+</html>
