@@ -1,0 +1,7 @@
+error_log
+**/error_log
+.env
+uploads/*
+!uploads/.gitkeep
+public/uploads/*
+!public/uploads/.gitkeep
